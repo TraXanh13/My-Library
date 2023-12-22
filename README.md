@@ -7,6 +7,7 @@ This will be a website database for books. The goal is to be able to scan the ba
 ### Profile
 
 - [ ] Create an account
+- [ ] Store accounts on a DB
 
 ### Necessary Features
 
