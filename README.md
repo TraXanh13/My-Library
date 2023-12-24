@@ -6,13 +6,14 @@ This will be a website database for books. The goal is to be able to scan the ba
 
 ### Profile 
 
-- Create an account
+- [ ] Create an account
+- [ ] Store accounts on a DB
 
 ### Necessary Features
 
 - [ ] Able to scan the barcode
 - [ ] Able to insert ISBN
-- [ ] Search the database for a book
+- [ ] Search the database for a book (Google API?)
 - [ ] Mark a book as owned
 - [ ] Mark a book as read
 
