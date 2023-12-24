@@ -4,7 +4,7 @@ This will be a website database for books. The goal is to be able to scan the ba
 
 ## Requirements ✅
 
-### Profile
+### Profile 
 
 - Create an account
 
