@@ -1,0 +1,17 @@
+h3 {
+	color: white;
+	width: auto;
+	max-height: 3em;
+	background-color: black;
+	opacity: 90%;
+	margin: 0;
+	padding: 0.5em 0.5em;
+}
+
+.card {
+	height: 300px;
+	width: 200px;
+	margin: 2em;
+	display: flex;
+	flex-direction: column-reverse;
+}
