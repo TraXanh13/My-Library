@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Card from './components/card';
+import Header from './components/header';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Header search="yes" />
     {/* <App /> */}
     <Card title="Hello" url="https://picsum.photos/200/400"/>
     <Card title="World" url="https://picsum.photos/200/200"/>
