@@ -20,6 +20,10 @@ input {
 	align-items: center;
 }
 
+#profileSection > * {
+	margin: 0.5em;
+}
+
 #profilePic {
 	border-radius: 100%;
 }

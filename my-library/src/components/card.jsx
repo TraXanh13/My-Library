@@ -6,7 +6,8 @@ function card(props) {
             backgroundImage: `url("${props.url}")`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat'
+            backgroundRepeat: 'no-repeat',
+            boxShadow: "5px 5px 20px black"
         }}>
 
             <h3>{props.title}</h3>

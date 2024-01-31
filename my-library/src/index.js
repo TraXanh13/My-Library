@@ -11,9 +11,11 @@ root.render(
   <React.StrictMode>
     <Header search="yes" />
     {/* <App /> */}
-    <Card title="Hello" url="https://picsum.photos/200/400"/>
-    <Card title="World" url="https://picsum.photos/200/200"/>
-    <Card title="Image" url="https://picsum.photos/200/300"/>
+    <container style={{display:"flex"}}>
+      <Card title="Hello" url="https://picsum.photos/200/400"/>
+      <Card title="World" url="https://picsum.photos/200/200"/>
+      <Card title="Image" url="https://picsum.photos/200/300"/>
+    </container>
   </React.StrictMode>
 );
 
