@@ -10,9 +10,17 @@ function card(props) {
             boxShadow: "5px 5px 20px black"
         }}>
 
-            <h3>{props.title}</h3>
+            <article className="cardInfo">
+                <h3>{props.title}</h3>
+                <p>{props.author}</p>
+            </article>
         </div>
     );
+}
+
+card.defaultProps = {
+    title: "No title to display",
+    author: "no author to display"
 }
 
 export default card;
