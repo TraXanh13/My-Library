@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import Card from './components/card';
+// import App from './App';
+// import Card from './components/card';
+import Home from './components/home';
 import Header from './components/header';
 import reportWebVitals from './reportWebVitals';
 
@@ -10,12 +11,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header search="yes" />
-    {/* <App /> */}
+    <Home />
+    {/* <App />
     <container style={{display:"flex"}}>
       <Card title="Hello" url="https://picsum.photos/200/400"/>
       <Card title="World" url="https://picsum.photos/200/200"/>
       <Card title="Image" url="https://picsum.photos/200/300"/>
-    </container>
+    </container> */}
   </React.StrictMode>
 );
 
